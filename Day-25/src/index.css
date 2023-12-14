@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.todo-na {
+  text-align: center;
+  color: #12ae89;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+.todo-in {
+  width: 20%;
+  margin-right: 2%;
+  height: 34px;
+  border: 2px solid #12ae89;
+}
+
+.add-btn {
+  width: 10%;
+  height: 34px;
+  background-color: #12ae89;
+  color:white;
+  border-radius: 10px;
+  border: 2px solid #12ae89;
+}
+
+#filter {
+  display: flex;
+  justify-content: space-around;  
+}
+
+.filt-list {
+  margin-top: 1%;
+}
+
+.filt-sele {
+  width: 21%;
+  background-color: #fe7f7e;
+  color: white;
+  height: 25px;
+}
+
+.todo-addlist {
+  display: flex;
+}
+
+#todo-list {
+  display: flex;
+  /* width: 30%; */
+  justify-content: center;
+  
+}
+
+.todo-addlist {
+  background-color: #ccf5d3;
+  width: 80%;
+}
+
+.todo-card {
+  width: 100%;
+  padding: 50px;
+}
+
+.status-btn {
+  width: 10%;
+  height: 34px;
+}
+
+.edit-btn {
+  width: 100%;
+  height: 34px;
+}
+
+.del-btn {
+  width: 100%;
+  height: 34px;
+}
+
+.all-btn {
+  float: right;
+  display: flex;
+  padding: 40px;
+  gap: 10px;
+
+}
